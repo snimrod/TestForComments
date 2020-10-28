@@ -40,10 +40,12 @@ int main(int argc, char *argv[])
 
 }*/
 
+#define DINA_SIZE 36
+
 int main()
 {
     time_t timer;
-    char buffer[26];
+    char buffer[DINA_SIZE];
     struct tm* tm_info;
 	bool i;
 	uint8_t *ip;
