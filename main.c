@@ -65,12 +65,6 @@ int main()
 		printf("no\n");
 */
 
-//	char *str = "0x000000000000000000B";
-//	uint64_t i = strtoull(str, NULL, 0);
-//	printf("%s %u\n", str, i);
-//	char *str1 = "0x000000000000000000C";
-//	i = strtoull(str, NULL, 16);
-//	printf("%s %u\n", str, i);
 	printf ("SHL int size is %u, int ptr size is %u\n", sizeof(i), sizeof(ip));
 	
     return 0;
