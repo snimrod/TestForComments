@@ -15,6 +15,8 @@
 
 //WHY???
 
+//just because
+
 void error(const char *msg)
 {
     perror(msg);
